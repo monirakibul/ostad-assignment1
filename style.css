@@ -19,20 +19,26 @@ body {
 
 .container {
     width: 400px;
-    height: 650px;
-    background: #fff;
+    height: 600px;
+    background: #fbf8f8;
     border-radius: 20px;
     overflow: hidden;
 }
 
 .image_section {
-    width: 400px;
+    width: 100%;
     height: 300px;
     background: #F95A2C;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .image_section img {
+    border-radius: 50%;
+    background-color: white;
     width: 150px;
     height: 150px;
 }
@@ -41,17 +47,13 @@ body {
     padding: 20px;
 }
 
-.image_section img {
-    width: 100%;
-    height: auto;
-}
 
 .occupation {
-    color: #00C6AE;
+    color: #81e5d9;
 }
 
 .name {
-    color: #000;
+    color: #fff;
     font-size: 30px;
     font-weight: bold;
 }
